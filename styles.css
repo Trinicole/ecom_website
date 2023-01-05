@@ -10,7 +10,7 @@ hr.solid {
     border-top: 3px solid #bbb;
 }
 hr.solid {
-    border-color: black;
+    border-color: rgb(0, 0, 0);
 }
  h1{
     letter-spacing: 5px;
@@ -32,16 +32,23 @@ hr.solid {
     header {font-size: 200%;}
 
     header.solid {
-        border-top: 3px solid black;
+        border-top: 3px solid rgb(0, 0, 0);
     }
+
     hr.solid {
-        border-color: black;}
+        border-color: rgb(0, 0, 0)}
     p 
-    {font-family: 'Segoe UI',}
+    {font-family: 'Segoe UI'}
     p{font-size: 20px;
     }
 
 
-img {float: right;
+    img {
+        float: right;
     transform: scaleX(-1);
 }
+p 
+{
+    font-family: 'Segoe UI'}
+    p{font-size:xx-large}
+    p{initial-letter-align: 2px}
