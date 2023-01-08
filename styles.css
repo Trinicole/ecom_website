@@ -1,54 +1,58 @@
-h1 {
-    color: black;
+html {
+    box-sizing: border-box;
 }
-h1 {font-family: 'Segoe UI',}
-h1 {font-size: 16px;}
-h1 {text-align: center;}
-h1 {font-style: normal}
 
-hr.solid {
-    border-top: 3px solid #bbb;
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
-hr.solid {
-    border-color: rgb(0, 0, 0);
+
+header {
+    position: relative;
+    padding: 1rem;
 }
- h1{
-    letter-spacing: 5px;
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+}
+
+nav ul li {
+      display: inline;
+    margin-left: 0.5rem;
+}
+
+main {
+    margin: 1rem auto;
+    width: 150%;
+}
+
+main section {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+ 
+img {
+    position: left;
+    width: 1000px;
+    height: 500px;
  }
 
- .topnav {
-    overflow: hidden;
-    background-color: white;
-  }
-  .topnav {text-align: right}
-  h2
-  {text-align: left;}
-  header{
-    font-family: 'Segoe UI';
-  }
-  header
-  {
-    letter-spacing: 5px;}
-    header {font-size: 200%;}
-
-    header.solid {
-        border-top: 3px solid rgb(0, 0, 0);
-    }
-
-    hr.solid {
-        border-color: rgb(0, 0, 0)}
-    p 
-    {font-family: 'Segoe UI'}
-    p{font-size: 20px;
-    }
-
-
-    img {
-        float: right;
-    transform: scaleX(-1);
+ .About {
+    margin-top: -6rem;
 }
-p 
-{
-    font-family: 'Segoe UI'}
-    p{font-size:xx-large}
-    p{initial-letter-align: 2px}
+ 
+.img-gallery{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+}
+
+.img-gallery > img {
+    width: 60%;
+    height: 100%;
+}
